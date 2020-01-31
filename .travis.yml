@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - node
+
+script:
+  - npx jest
+
+notifications:
+ email:
+   recipiens:
+    -fill1986@gmail.com
+   on_success: never
+   on_failure: never
